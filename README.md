@@ -23,7 +23,7 @@ Add it in your root build.gradle(project) at the end of repositories:
                 .message("message")   /**  Pass message here **/
                 .setBackgroundShape(R.drawable.memomshape) /** Optional:- design own shape in drawable  **/
                 .setTextStyle(R.style.textStyleBold)  /** Optional:- design customize text style, text size, text color **/
-                .setDrawableImage(R.drawable.ic_stat_name)   /** Optional:- pass icon from drawable**/
+                .setDrawableImage(R.drawable.yourIcon)   /** Optional:- pass icon from drawable**/
                 .build();
 	       
  
