@@ -9,8 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class CustomUtils {
-    public static void buildToast(Activity context, String message, int backgroundShape, int drawableImageId, int style){
+ class CustomUtils {
+     static void buildToast(Activity context, String message, int backgroundShape, int drawableImageId, int style){
         LayoutInflater layoutInflater = context.getLayoutInflater();
         View view = layoutInflater.inflate(R.layout.memomlayout,(ViewGroup) context.findViewById(R.id.memo));
         ImageView imageView = view.findViewById(R.id.img_view);

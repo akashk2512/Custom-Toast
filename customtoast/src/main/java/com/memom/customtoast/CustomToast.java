@@ -43,7 +43,7 @@ public class CustomToast {
         }
     }
 
-    private CustomToast(Builder builder) {
+     CustomToast(Builder builder) {
         mActivity = builder.mActivity;
         message = builder.message;
         backgroundShape = builder.backgroundShape;
