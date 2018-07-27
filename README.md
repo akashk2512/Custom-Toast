@@ -1,6 +1,12 @@
 # Custom-Toast
 Easy to use toast with custom design
 
+#Demo
+
+<a href="https://imgflip.com/gif/2etpb3"><img src="https://i.imgflip.com/2etpb3.gif" title="made at imgflip.com"/></a>
+
+#Usage
+
 Step 1:
 Add it in your root build.gradle(project) at the end of repositories:
 
