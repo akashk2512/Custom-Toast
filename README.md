@@ -16,7 +16,7 @@ Add it in your root build.gradle(project) at the end of repositories:
 > Step 2. Add the dependency (build.gradle (module app))
 
 	dependencies {
-	        implementation 'com.github.akashk2512:Custom-Toast:1.0.0'
+	        implementation 'com.github.akashk2512:Custom-Toast:1.0.1'
 	}
 
 >  Step 3. Add this in Activity
