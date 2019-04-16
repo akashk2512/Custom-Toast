@@ -49,7 +49,6 @@ public class CustomToast {
         backgroundShape = builder.backgroundShape;
         drawableImage = builder.drawableImage;
         style = builder.style;
-        Log.d("test", "CustomToast: "+style);
         CustomUtils.buildToast(mActivity,message,backgroundShape,drawableImage,style);
     }
 }
